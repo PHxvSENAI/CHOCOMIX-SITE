@@ -4,7 +4,7 @@ import trufas from "@/assets/prod-trufas.jpg";
 import presentes from "@/assets/prod-presentes.jpg";
 import sazonais from "@/assets/prod-sazonais.jpg";
 
-export const WHATSAPP_NUMBER = "5511999999999";
+export const WHATSAPP_NUMBER = "+55 1999506-9241";
 
 export function whatsappLink(message: string) {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
