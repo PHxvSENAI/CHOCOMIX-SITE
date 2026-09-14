@@ -140,5 +140,5 @@ export const lojas = [
   },
 ];
 
-export const formatBRL = (v: number) =>19995069241
+export const formatBRL = (v: number) =>
   v.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
